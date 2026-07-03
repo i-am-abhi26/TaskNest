@@ -1,0 +1,44 @@
+.navbar{
+    height: 60px;
+    background-color: #2563EB;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+    color: azure;
+    margin-bottom: 50px;
+}
+.appName{
+    display: flex;
+    gap: 2px;
+    flex:1;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url('https://imgs.search.brave.com/zdT58UFPHVrAByXG8mPm2XvReZ9fC7WfyehNMRSuK_Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi9zaG9wcGlu/Zy1saXN0LWljb24t/c3ZnLWRvd25sb2Fk/LXBuZy02MDI1NTY1/LnBuZz9mPXdlYnAm/dz0xMjg');
+    background-size: cover;
+}
+.name{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex:1;
+    margin: 10px;
+}
+.about{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+}
+@media(max-width:540px){
+    .navbar{
+        flex-direction: column;
+        height: auto;
+    }
+    .about{
+        display: none;
+    }
+}

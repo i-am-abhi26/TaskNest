@@ -1,0 +1,163 @@
+.ToDo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    padding: 20px;
+    text-align: center;
+    min-height: 500px;
+    height: 100%;
+    width: 450px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+@media(max-width:540px){
+    .card{
+        width: 290px;
+    }
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header h2{
+    font-size: 1.7rem;
+    margin: 5px;
+}
+.header input{
+    margin: 5px;
+}
+.adding{
+    background-color: #2564ebde;
+    color: azure;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.adding:active{
+    border: 2px solid white;
+    color: black;
+}
+.adding:hover{
+    border: 2px solid black;
+}
+.card input{
+    padding: 5px;
+    margin: 5px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: azure;
+}
+.saving{
+    height: 30px;
+    width: 50px;
+    background-color: #2564ebde;
+    color: azure;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.saving:active{
+    border: 2px solid white;
+    color: black;
+}
+.saving:hover{
+    border: 2px solid black;
+}
+.todos{
+    margin-top: 15px;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 5px;
+    padding: 5px;
+}
+.text{
+    flex: 1;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    margin-right: 5px;
+}
+.edit button{
+    height: 30px;
+    width: 40px;
+    background-color: #2564ebde;
+    color: azure;
+    border-radius: 7px;
+    margin: 3px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.edit button:active{
+    border: 2px solid white;
+    color: black;
+}
+.edit button:hover{
+    border: 2px solid black;
+}
+.delete button{
+    height: 30px;
+    width: 40px;
+    background-color: #eb2525de;
+    color: azure;
+    border-radius: 7px;
+    margin: 3px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.delete button:active{
+    border: 2px solid white;
+    color: black;
+}
+.delete button:hover{
+    border: 2px solid black;
+}
+.strikeoff{
+    color: rgba(145, 144, 144, 0.8);
+    text-decoration: line-through;
+}
+.remove{
+    height: 30px;
+    width: 30px;
+    background-color: #eb2525de;
+    color: azure;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.remove:active{
+    border: 2px solid white;
+    color: black;
+}
+.remove:hover{
+    border: 2px solid black;
+}
+.hidden{
+    display: none;
+}
+.empty{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:#2564ebde
+}
