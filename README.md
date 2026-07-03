@@ -1,16 +1,68 @@
-# React + Vite
+# 📋 TaskNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A clean and responsive **Todo Application** built with **React** and **Vite** that helps users organize daily tasks efficiently. Tasks are stored in the browser using **Local Storage**, so they remain even after refreshing the page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🔗 **Coming Soon** *(Will be updated after deployment on Vercel)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- ✅ Add new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ☑️ Mark tasks as completed
+- 👀 Show / Hide completed tasks
+- 💾 Persistent storage using Local Storage
+- ⌨️ Add tasks by pressing **Enter**
+- 📱 Fully Responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_Icons-E91E63?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Local_Storage-FF9800?style=for-the-badge" />
+</p>
+
+---
+
+## 📸 Preview
+
+> Screenshots will be added after deployment.
+
+---
+
+## 📂 Folder Structure
+
+```text
+src
+│── Components
+│   ├── Navbar.jsx
+│   ├── Navbar.css
+│   ├── ToDo.jsx
+│   └── ToDo.css
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+```
+
+---
+
+
+## 👨‍💻 Developer
+
+**Abhi**
+
+If you like this project, consider giving it a ⭐ on GitHub!
